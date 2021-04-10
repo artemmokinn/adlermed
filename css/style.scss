@@ -34,6 +34,9 @@ body {
       width: 200px;
     }
   }
+  .header-logo-mobile {
+    display: none;
+  }
   .header-info {
     .header-info-text {
       display: inline;
@@ -404,9 +407,13 @@ body {
     padding-top: 20px;
     margin-bottom: 100px;
     .header-logo {
+      display: none;
+    }
+    .header-logo-mobile {
+      display: block;
       margin: 0 auto;
-      .header-logo-img {
-        width: 200px;
+      .header-logo-mobile-img {
+        width: 100px;
       }
     }
     .header-info {
