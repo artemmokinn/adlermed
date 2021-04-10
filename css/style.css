@@ -36,10 +36,6 @@ body {
   width: 200px;
 }
 
-.header .header-logo-mobile {
-  display: none;
-}
-
 .header .header-info .header-info-text {
   display: inline;
   margin-right: 60px;
@@ -400,16 +396,6 @@ body {
     background-color: #fff;
     padding-top: 20px;
     margin-bottom: 100px;
-  }
-  .header .header-logo {
-    display: none;
-  }
-  .header .header-logo-mobile {
-    display: block;
-    margin: 0 auto;
-  }
-  .header .header-logo-mobile .header-logo-mobile-img {
-    width: 100px;
   }
   .header .header-info .header-info-text {
     display: inline;
