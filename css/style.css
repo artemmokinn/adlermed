@@ -71,15 +71,19 @@ body {
 }
 
 .offer .offer-text .offer-text-button {
-  font-size: 15px;
-  font-weight: bold;
   width: 250px;
   height: 50px;
   border: none;
   border-radius: 50px;
   background-color: #009846;
   outline: none;
+}
+
+.offer .offer-text .offer-text-button .offer-text-button-link {
+  text-decoration: none;
   color: #fff;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .offer .offer-image .offer-image-img {

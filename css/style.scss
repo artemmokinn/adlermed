@@ -63,15 +63,18 @@ body {
 			margin-bottom: 30px;
 		}
 		.offer-text-button {
-			font-size: $font-size-desktop;
-			font-weight: bold;
 			width: 250px;
 			height: 50px;
 			border: none;
 			border-radius: 50px;
 			background-color: #009846;
 			outline: none;
-			color: #fff;
+			.offer-text-button-link {
+				text-decoration: none;
+				color: #fff;
+				font-size: $font-size-desktop;
+				font-weight: bold;
+			}
 		}
 	}
 	.offer-image {
